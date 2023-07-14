@@ -1,0 +1,42 @@
+.cart_container {
+  display: block;
+
+  .cart__block {
+    width: 95%;
+    margin: 0 auto;
+  }
+
+  .buy__block{
+    width: 315px;
+    margin: 20px auto;
+  }
+
+}
+
+.shop__container {
+  padding: 20px;
+  .shop__item__block {
+    &.favorite {
+      .shop__item {
+        width: 33.3%;
+      }
+    }
+
+    width: 100%;
+    .shop__item {
+      width: 33.3%;
+    }
+  }
+}
+
+.filters__block {
+  width: 100%;
+  max-width: none;
+}
+
+.footer .container .footer__soc {
+  display: block;
+  p {
+    padding-bottom: 10px;
+  }
+}

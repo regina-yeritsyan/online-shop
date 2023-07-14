@@ -1,0 +1,35 @@
+
+<div class="container"
+     style="width: 60%;
+     background: #e3e3e3;
+     text-align: center;
+     margin: 0 auto;
+     padding: 40px;
+">
+    <h1>Online Shop</h1>
+
+    <p style="width: 70%;
+     margin: 0 auto;
+    ">
+        You have registered on the online shop website. Click the button to confirm the registration.
+    </p>
+
+    <button style="
+        padding: 0;
+        border: none;
+        margin: 50px 0 10px;
+        ">
+        <a href="<%= activationUri %>?email=<%= email %>&code=<%= activationCode %>"
+           style="text-decoration: none;
+               color: #4e4e4e;
+               cursor: pointer;
+               padding: 15px 30px;
+               border-radius: 10px;
+               background: #aaaac9;
+               font-size: 14px;
+           "
+           >
+            Confirm
+        </a>
+    </button>
+</div>

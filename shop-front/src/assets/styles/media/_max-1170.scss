@@ -1,0 +1,15 @@
+.shop__container  {
+  padding: 20px 25px;
+  .shop__item__block {
+
+    &.favorite {
+      .shop__item {
+        width: 25%;
+      }
+    }
+
+    .shop__item {
+      width: 33.3%;
+    }
+  }
+}
